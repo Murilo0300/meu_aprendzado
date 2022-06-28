@@ -1,1 +1,41 @@
+body {
+    display: flex;
+    
+}
 
+.lista {
+    display: flex;
+    justify-items: flex-start;
+    background-color: antiquewhite;
+    padding-right: 5%;
+    
+}
+
+
+.lista-lado {
+    display: flex;
+    flex-direction: column;
+    background-color: aquamarine;
+    width: 100%;
+    padding-top: 5%;
+    
+
+}
+
+.lista-lado-item {
+    border: solid 2px #000;
+    width: 150px;
+    height: 40px;
+
+
+}
+
+/****** CORPO DO E-MAIL *******/
+
+.corpo {
+    display: flex;
+   justify-content: center;
+   background-color: cadetblue;
+   padding: 10%;
+   width: 500px;
+}
